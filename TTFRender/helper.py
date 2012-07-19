@@ -4,12 +4,13 @@
 Some Helper Function of Module TTFRender
 """
 
-import os,re
+import os
+import re
 
 #TODO: Make a Adapter to Get the TTF FILE of Specified Font
 def get_ttf_file(font_name):
     FONT_DIRECTORY = os.path.abspath(os.path.dirname(__file__))+"/fonts/"
-    return FONT_DIRECTORY+"kai.ttf"
+    return _unicode(FONT_DIRECTORY+"钟齐吴嘉睿手写字.ttf")
 
 # Get the Unicode of Specified Word
 def _unicode(w):
