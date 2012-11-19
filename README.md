@@ -43,6 +43,9 @@ TTFRender 就是为了解决这一问题而出现的。我们只需要提供特�
 
 #### Alternative Use ####
 
+0.修改 Font Adapter*Important*
+初衷是用一个 Font Adapter 来根据 Font Family 来控制字体,不过由于自己偷懒所以需要手动修改 TTFRender/helper.py 来控制这个适配器,具体的请参看源码.
+
 1.中文字体文件过大？
 中文字体过大严重影响 UE。这时候我们可以使用 [WebFont Loader][WebFont Loader] 来控制在不同载入状态下的字体显示。
 
