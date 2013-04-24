@@ -121,6 +121,11 @@ TTFRender 就是为了解决这一问题而出现的。我们只需要提供特�
 * TTFRender/parser.py
 TTFRender Core Module.
 
+#### 参考网址 ###
+
+[pip fontforge](https://pypi.python.org/pypi/ufo2otf/0.1.0b )
+
+[python fontforge](http://fontforge.org/python.html)
 
 [CSS3 Support]:  http://www.w3schools.com/cssref/css3_browsersupport.asp
 [WebFont Loader]: https://developers.google.com/webfonts/docs/webfont_loader
