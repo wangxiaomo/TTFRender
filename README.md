@@ -6,6 +6,12 @@ WebFont 纵然很好，但是目前没有较好的中文解决方案。一是 go
 
 TTFRender 就是为了解决这一问题而出现的。我们只需要提供特定字体和需要支持的字列表，然后便可以生成符合应用的字符，有效的节省了带宽与时间，并提升了 UE。
 
+#### Need To Know ####
+
+年久失修，遇到问题欢迎 issues 讨论.附另一篇类似文章参考 [http://hxgdzyuyi.github.io/blog/chinese-subset.html](http://hxgdzyuyi.github.io/blog/chinese-subset.html)
+
+this repo was written two years ago. feel free to open any issues. here is another page about this.[http://hxgdzyuyi.github.io/blog/chinese-subset.html](http://hxgdzyuyi.github.io/blog/chinese-subset.html)
+
 #### How To Use ####
 
 1.导出字体
